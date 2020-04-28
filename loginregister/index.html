@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>user login</title>
+</head>
+<body>
+	<div id="main">
+		<img src="img/image1.jpg" class="stars" alt="">
+		<div class="align">
+			<div id="particles-js"></div>
+			<img class="logo" src="img/logo.svg">
+			<div class="card"> 
+				<div class="head">
+					<div></div>
+					<a id="login" class="selected" href="#login">Login</a>
+					<a id="register" href="#register">Register</a>
+					<div></div>
+				</div>
+				<div class="tabs">
+					<form>
+						<div class="inputs">
+							<div class="input">
+								<input placeholder="Username" type="text">
+								<img src="img/user.svg">
+							</div>
+							<div class="input">
+								<input placeholder="Password" type="password">
+								<img src="img/pass.svg">
+							</div>
+							<label class="checkbox">
+								<input type="checkbox">
+								<span>Remember me</span>
+							</label>
+						</div>
+						<button>Login</button>
+					</form>
+					<form>
+						<div class="inputs">
+							<div class="input">
+								<input placeholder="Email" type="text">
+								<img src="img/mail.svg">
+							</div>
+							<div class="input">
+								<input placeholder="Username" type="text">
+								<img src="img/user.svg">
+							</div>
+							<div class="input">
+								<input placeholder="Password" type="password">
+								<img src="img/pass.svg">
+							</div>
+						</div>
+						<button>Register</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+	particlesJS.load('particles-js', 'particles.json',
+	function(){
+		console.log('particles.json loaded...')
+	})
+</script>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
